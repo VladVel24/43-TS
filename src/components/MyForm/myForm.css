@@ -1,0 +1,17 @@
+
+.myForm {
+    width: 350;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border : 1px solid black;
+    
+}
+
+.myForm > input {
+    margin-bottom: 3px;
+    border: 2px solid blue;
+    background-color: blanchedalmond;
+    
+
+}

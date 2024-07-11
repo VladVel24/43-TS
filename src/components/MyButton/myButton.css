@@ -1,0 +1,19 @@
+.myButton {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: rgb(125, 125, 215);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+
+}
+
+.myButton:hover {
+    background-color: rgb(206, 219, 229)
+}
+
+.myButton :active {
+    background-color: rgb(29,29,94);
+    color: white;
+}
