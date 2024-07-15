@@ -1,9 +1,9 @@
 
 
-import MyButton from "../components/MyButton/MyButton"
-import Counter from "../components/Counter/Counter"
+import MyButton from "../../components/MyButton/MyButton"
+import Counter from "../../components/Counter/Counter"
 
-function Lesson07() {
+function Lesson07 () {
 
 
 //let hero: string = "Batman"

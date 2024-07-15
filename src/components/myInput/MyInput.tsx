@@ -8,7 +8,7 @@ interface IMyInputProps {
 
 }
 
-export default function MyInput({label, type, name, placeholder}: IMyInputProps) {
+export default function MyInput({label='default', type, name='input', placeholder='default'}: IMyInputProps) {
     return (
         <>
 

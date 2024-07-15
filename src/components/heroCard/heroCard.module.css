@@ -1,0 +1,37 @@
+.forceUsersGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 100%;
+    gap: 10px;
+}
+
+
+.heading {
+    margin-bottom: 0;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+.card h4 {
+    margin-bottom: 0;
+}
+
+.card img {
+    widows: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.dark {
+    background-color: rgb(235, 122, 122);
+}
+
+.light {
+    background-color: rgb(94, 238, 238);
+}
