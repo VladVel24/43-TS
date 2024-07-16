@@ -1,0 +1,22 @@
+.lesson-container > button{
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: rgb(125, 125, 215);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.facts-container {
+    
+    background-color: rgb(156, 234, 187);
+    max-height: 700px;
+    overflow-y: auto;
+    border: 2px solid #bab3b3;
+    padding: 10px;
+    margin-top: 20px;
+}
+.facts-container::before{
+    content:"🐈"
+}

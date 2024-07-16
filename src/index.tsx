@@ -1,8 +1,10 @@
 
 import ReactDOM from 'react-dom/client';
 import './index.css';
+//import Hw09 from './homeworks/hw09/Hw09';
+import Lesson10 from './lessons/lesson10/Lesson10';
 //import Lesson09 from './lessons/lesson09/Lesson09';
-import StarWarGallery from './components/starWarGallery/StarWarGallery';
+//import StarWarGallery from './components/starWarGallery/StarWarGallery';
 //import App from './app/App';
 // import Lesson06 from './lessons/lesson06/Lesson06';
 //import Lesson07 from './lessons/lesson07/Lesson07';
@@ -24,7 +26,9 @@ root.render(
     {/* <Lesson08 /> */}
     {/* <Layout /> */}
     {/* <Lesson09 /> */}
-    <StarWarGallery />
+    {/* <StarWarGallery /> */}
+    {/* <Hw09 /> */}
+    <Lesson10 />
   
 
     
