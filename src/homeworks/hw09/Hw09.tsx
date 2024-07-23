@@ -17,7 +17,7 @@ function Hw09 () {
         <div className="lesson-container">
             <h3>Изображение лисы</h3>
             <img src={imageUrl} alt="" />
-            
+            <h4>bild</h4>
         </div>
 
     );
