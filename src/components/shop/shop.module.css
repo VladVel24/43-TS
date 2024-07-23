@@ -1,0 +1,9 @@
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: azure;
+}

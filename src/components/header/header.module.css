@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    background-color: orange;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header > a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* .header > a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: white
+} */

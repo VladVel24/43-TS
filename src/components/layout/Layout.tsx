@@ -1,17 +1,18 @@
+import { Outlet } from 'react-router-dom';
 import styles from './layout.module.css'
+import Footer from '../footer/Footer';
+import Header from '../header/Header';
 
 function Layout() {
-    return(
+
+    return (
+        
         <div className={styles.page}>
-        <header className={styles.header}>
-            header
-        </header>
-        <main className={styles.main}>
-            main
-        </main>
-        <footer className={styles.footer}>
-            footer
-        </footer>
+            <Header />
+           <main className={styles.main}>
+            <Outlet/>
+           </main>
+            <Footer/>
         </div>
     );
 }

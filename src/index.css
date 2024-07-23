@@ -23,3 +23,14 @@ code {
   align-items: center;
   width: 70%;
 }
+.header  {
+  text-decoration: none;  
+  margin-right: 20px;
+  color: white
+}
+header > a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: white
+}
+  

@@ -1,0 +1,40 @@
+.genderForm {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 300px;
+   
+}
+
+.genderForm > input {
+    margin-bottom: 5px;
+    font-size: large;
+    
+}
+
+.genderForm > button {
+    background-color: rgb(255,208,255);
+    border: none;
+    border-radius: 2px;
+    font-size: large;
+    
+}
+.errors{
+    color: red;
+}
+
+
+.errorContainer {
+    top: 200px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 20px;
+    background-color: rgba(255,0,0,0.05);
+}
+.errorContainer > span {
+    font-size: 15px;
+
+}
+
